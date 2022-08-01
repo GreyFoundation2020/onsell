@@ -1,7 +1,7 @@
 import React, {useEffect, useState, useRef} from 'react'
 import HeaderAuth from '../desktop/HeaderAuth'
 import PostAddIcon from '@mui/icons-material/PostAdd';
-import { doc, getDoc, collection, setDoc, query, Timestamp, where, onSnapshot } from "firebase/firestore";
+import { doc, getDoc, collection, setDoc, query, Timestamp, orderBy, onSnapshot } from "firebase/firestore";
 import {db} from '../../App.js'
 import moment from "moment";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
@@ -139,7 +139,7 @@ await setDoc(newPublicationRef, {
   }
 
   const getAdverts=async()=>{
-    const q = query(collection(db, "adverts"))
+    const q = query(collection(db, "adverts"), orderBy('dateCreated', 'desc'))
     const unsubscribe = onSnapshot(q, (querySnapshot) => {
       const advertsData = [];
       querySnapshot.forEach((doc) => {
