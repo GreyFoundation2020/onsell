@@ -203,7 +203,7 @@ else{
      <Header page="home"/>
 
      <div className='home-content'>
-       <span className='header-text'>Welcome 2!</span>
+       <span className='header-text'>Welcome !</span>
        <span className='sub-header-text'>Want to Buy or Sell a Property ?</span>
        <span className='sub-text'>We've got you covered.</span>
         <button onClick={()=>setHideModal(false)} className='home-button' > <span className='home-button-text' >Click To Get Started</span> </button>
