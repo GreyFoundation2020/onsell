@@ -1,0 +1,6 @@
+Date 17/7/2022
+
+ADD ROUTER
+1. Google install react router
+2. install React Responsive
+2.1 creating difference components that will make the webpages Responsive when view on desktop and also on mobile

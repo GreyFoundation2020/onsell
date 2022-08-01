@@ -1,0 +1,120 @@
+.explore-container{
+    background-image: url( "../../../images/explorebackground.png");
+    opacity: 2.5;
+     background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    background-color: #ededed6e;
+    display: flex;
+    flex-direction: row-reverse;  
+    height: 100vh; 
+    margin-top: 0;
+    z-index: 1;
+}
+div{
+    overflow-x: clip;
+}
+.explore-content{
+    margin-top: 30px;
+    text-align: left;
+    width: 50%;
+}
+.explore-h1{
+     font-size:50px;
+     font-weight: 700;
+     margin-top: 4%;
+}
+.explore-span{
+    font-size: 20px;
+     font-weight: 500;
+     margin-top: 10px;
+}
+.explore-p{
+     margin-top: 15px;
+    font-size: 15px;
+     font-weight: 500;
+     
+    
+}
+.explore-text{
+   
+   padding: 0px 0px 0px 60px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ .container-left {
+        width: 550px;
+        background-color: teal;
+        padding-bottom: 20px;
+        display: block;
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+       
+    }
+     .btn-btn {
+        width: 550px;
+        font-size: 18px;
+        text-align: center;
+        padding: 28px;
+        background: orange;
+        border: none;
+        cursor: pointer;
+        color: white;
+        box-shadow: 0 .375rem .875rem 0 rgba(0, 0, 0, .13), 0 .0625rem .25rem 0 rgba(0, 0, 0, .11);
+    }
+     .btn-container {
+        font-size: 20px;
+        background: whitesmoke;
+        margin: 15px 40px;
+        height: 32px;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .btn-container a {
+        color: orange;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 16px;
+        height: 40px;
+        padding-top: 10px;
+    }
+    .plan-section1 img {
+        width: 550px;
+        height: 390px;
+        border-radius:  15px 15px 1px 1px;
+    }
+    .plan-section1{
+        position: absolute;
+        top: 65vh;
+        left: 55%;
+        
+    }
+    .explore-value{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         background-color: #ededed6e;
+         height: 90vh;
+         padding-top: 30px;   
+    }
+    .value-text{
+        width: 100%;
+        padding: 60px;
+        
+    
+    }
+    
+    .value-text h1{
+        color: teal;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+      .value-text q{
+    font-size: 18px;
+    line-height: 2;
+    }

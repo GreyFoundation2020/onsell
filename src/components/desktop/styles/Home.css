@@ -1,0 +1,230 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url( "../../../images/background.png");
+    opacity: 2.5;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    background-color: #fbfbfbd6;
+   
+}
+
+.home-image img{
+    width: 100%;
+    justify-content: center;
+}
+.header-text{
+     font-size:50px;
+     font-weight: 700;
+     margin-top: 4%;
+}
+.sub-header-text{
+    font-size: 30px;
+     font-weight: 500;
+     margin-top: 10px;
+}
+.sub-text{
+     margin-top: 5px;
+    font-size: 20px;
+     font-weight: 500;
+    
+}
+.home-button{
+   width: 30%;
+   margin-top: 2%;
+   border: none;
+   height: 50px;
+   border-radius: 8px;
+   background: orange;
+   
+}
+.home-button-text{
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.home-content{
+    padding: 95px 0px 0px 40px;
+      display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+
+}
+
+
+.signup-container{
+    position: fixed;
+    background: whitesmoke;
+    width: 32%;
+    /* height: 450px; */
+    left: 53%;
+    top: 12%;
+    transform: translate(-50%, 0);
+     box-shadow: 3px 3px 0px -1px white;
+     border-radius: 21px;
+     padding: 25px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+}
+
+.signup-container-hidden{
+   display: none;
+}
+
+
+
+.signin-container{
+    position: fixed;
+    background: whitesmoke;
+    width: 32%;
+    height: 450px;
+    left: 53%;
+    top: 15%;
+    transform: translate(-50%, 0);
+     box-shadow: 3px 3px 0px -1px white;
+     border-radius: 21px;
+     padding: 25px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+}
+.signin-container input{
+    padding: 12px;
+    border-radius: 20px;
+    color: orange;
+    text-align: left;
+    border: 2px solid teal;
+  
+}
+
+.signin-container-hidden{
+   display: none;
+}
+.title2, .title{
+    text-align: center;
+    padding: 15px;
+    color: orange;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.name-input{
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+   justify-content: space-between;
+    
+}
+
+.name-input input{
+    width: 40%;
+}
+
+
+.signup-container input{
+    padding: 12px;
+    border-radius: 20px;
+    color: orange;
+    text-align: left;
+    border: 2px solid teal;
+  margin-bottom: 10px;
+}
+
+.signup-container select{
+    padding: 12px;
+    border-radius: 20px;
+    color: orange;
+    text-align: left;
+    border: 2px solid teal;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+  
+}
+
+.signup-button{
+   width: 100%;
+   margin-top: 2%;
+   border: none;
+   height: 50px;
+   border-radius: 8px;
+   background: orange;
+   text-align: center;
+   font-size: 1rem;
+   color: whitesmoke;
+   font-weight: 700;
+   cursor: pointer;
+}
+.signup-button-disabled{
+   width: 100%;
+   margin-top: 2%;
+   border: none;
+   height: 50px;
+   border-radius: 8px;
+   background: gray;
+   text-align: center;
+   font-size: 1rem;
+   color: whitesmoke;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.signin-button{
+    width: 100%;
+    margin-top: 2%;
+    border: none;
+    height: 50px;
+    border-radius: 8px;
+    background: orange;
+    text-align: center;
+    font-size: 1rem;
+    color: whitesmoke;
+    font-weight: 700;
+    cursor: pointer;
+ }
+ .signin-button-disabled{
+    width: 100%;
+    margin-top: 2%;
+    border: none;
+    height: 50px;
+    border-radius: 8px;
+    background: gray;
+    text-align: center;
+    font-size: 1rem;
+    color: whitesmoke;
+    font-weight: 700;
+    cursor: pointer;
+ }
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.checkbox-text{
+    margin-left: 12px;
+}
+
+.close-btn{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+.close-icon{
+    height: 25px;
+    color: teal;
+    cursor: pointer;
+}
+
+.errormesage{
+    text-align: center;
+    font-weight: 500;
+    color: red;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
