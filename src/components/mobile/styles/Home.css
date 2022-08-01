@@ -1,13 +1,15 @@
 .home-container{
-    display: flex;
+   display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-image: url( "../../../images/background.png");
+    height: 113vh;
+    margin-bottom: 0px;
+    background-image: url(/static/media/background.a7a1d9b7.png);
     opacity: 2.5;
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain;  
-    background-color: #fbfbfbd6;
+    background-size: contain;
+    padding-bottom: 0px;
+    
    
 }
 
@@ -33,12 +35,12 @@
     
 }
 .home-button{
-   width: 30%;
-   margin-top: 2%;
-   border: none;
-   height: 50px;
-   border-radius: 8px;
-   background: orange;
+    width: 60%;
+    margin-top: 3%;
+    border: none;
+    height: 50px;
+    border-radius: 8px;
+    background: orange;
    
 }
 .home-button-text{
@@ -50,28 +52,25 @@
 }
 
 .home-content{
-    padding: 95px 0px 0px 40px;
-      display: flex;
-    flex-direction: column; 
-    min-height: 100vh;
-
+   padding: 50px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .signup-container{
-    position: fixed;
+  position: fixed;
     background: whitesmoke;
-    width: 32%;
-    height: 450px;
-    left: 53%;
-    top: 15%;
+    width: 85%;
+    left: 48%;
+    top: 10%;
     transform: translate(-50%, 0);
-     box-shadow: 3px 3px 0px -1px white;
-     border-radius: 21px;
-     padding: 25px;
-     display: flex;
-     justify-content: space-between;
-     flex-direction: column;
+    box-shadow: 47px 8px 9px 7px white;
+    border-radius: 21px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .signup-container-hidden{
@@ -83,17 +82,16 @@
 .signin-container{
     position: fixed;
     background: whitesmoke;
-    width: 32%;
-    height: 450px;
+    width: 80%;
     left: 53%;
-    top: 15%;
+    top: 10%;
     transform: translate(-50%, 0);
-     box-shadow: 3px 3px 0px -1px white;
-     border-radius: 21px;
-     padding: 25px;
-     display: flex;
-     justify-content: space-between;
-     flex-direction: column;
+    box-shadow: 3px 3px 0px -1px white;
+    border-radius: 21px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .signin-container-hidden{
@@ -101,7 +99,8 @@
 }
 .title2, .title{
     text-align: center;
-    padding: 15px;
+    padding: 18px;
+    padding-top: 0px;
     color: orange;
     font-weight: 600;
     font-size: 2rem;
