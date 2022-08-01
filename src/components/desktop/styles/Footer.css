@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     padding: 5%;
     background: teal;
@@ -40,9 +40,7 @@
     justify-content: flex-start;
     padding-left: 16px;
 }
-.footer-about{
 
-}
 .footer-search{
    display: flex;
     flex-direction: row;
@@ -69,7 +67,7 @@
 .footer-bottom{
     padding: 2%;
     display: flex;
-    width: 96%;
+    width: 100%;
     justify-content: space-between;
     background: #df9714;
     color: whitesmoke;
