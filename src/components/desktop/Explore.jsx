@@ -24,9 +24,9 @@ const Explore = () => {
             </div>
         </div>
          <div className="plan-section1">
-             <img src={houserent} alt=""/>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/gXW6BYWtUfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div className="container-left">
-                  <button className="btn-btn"><i class="fa-solid fa-angle-right" ></i>Personal and family </button>
+                  <button className="btn-btn"><i class="fa-solid fa-angle-right" ></i>Watch More</button>
                   <div className="btn-container">
                     <a href="">Learn more</a>
                  </div>
