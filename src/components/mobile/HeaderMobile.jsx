@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import advertiselogo from '../../images/advertiselogo.png'
-import './styles/Header.css'
+import './styles/HeaderMobile.css'
 
 
-export default function Header(props) {
+
+export default function HeaderMobile(props) {
   return (
     <div className='header-container'>
       <div className='logo-container'>
-        <img src={advertiselogo} alt='logo' />
+        <img src={advertiselogo} alt='logo' /><h1>ON<span>sell</span></h1>
       </div>
         {/* <div className='header-input'> <input type='text' value='' placeholder='Search here in ONsell' /> </div> */}
         <div className='list-container'>
@@ -16,7 +17,7 @@ export default function Header(props) {
        <Link className={props.page==='explore'?'nav-link-selected':'nav-link'} to={'/explore'}>Explore</Link>
        {/* <Link className={props.page==='contact'?'nav-link-selected':'nav-link'} to={'/pricing'}>Pricing</Link>
        <Link className={props.page==='contact'?'nav-link-selected':'nav-link'} to={'/sell'}>Sell</Link> */}
-       <Link className={props.page==='testimonies'?'nav-link-selected':'nav-link'} to={'/testimonies'}>Testimonies</Link>   
+       <Link className={props.page==='testimonies'?'nav-link-selected':'nav-link'} to={'/about'}>About</Link>   
         </div>
 
     </div>

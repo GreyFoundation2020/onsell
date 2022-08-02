@@ -225,3 +225,11 @@ outline: none;
         margin-left: 4px;
         cursor: pointer;
        }
+    .footer-bottom{
+    padding: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #df9714;
+    color: whitesmoke;
+}

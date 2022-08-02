@@ -41,10 +41,11 @@
     align-items: flex-end;
     justify-content: space-between;
     margin-right: 2%;
+    color: teal;
 
   
 }
-.nav-link{
+.nav-link {
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;

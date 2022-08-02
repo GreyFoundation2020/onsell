@@ -11,9 +11,9 @@ export default function Header(props) {
       </div>
         {/* <div className='header-input'> <input type='text' value='' placeholder='Search here in ONsell' /> </div> */}
         <div className='list-container'>
-       <Link className={props.page==='home'?'nav-link-selected':'nav-link'} to={'/to'}>Home</Link>
-       <Link className={props.page==='explore'?'nav-link-selected':'nav-link'} to={'/explore'}>Explore</Link>
-       <Link className={props.page==='about'?'nav-link-selected':'nav-link'} to={'/footer'}>About</Link>   
+       <Link className={props.page==='home'?'nav-link-selected': 'navg-link'} to={'/to'}>Home</Link>
+       <Link className={props.page==='explore'?'nav-link-selected': 'nav-link'} to={'/explore'}>Explore</Link>
+       <Link className={props.page==='about'?'nav-link-selected': 'nav-link'} to={'/footer'}>About</Link>   
         </div>
 
     </div>

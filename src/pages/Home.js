@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from 'react-responsive'
 import DesktopHome from '../components/desktop/Home.jsx'
-import MobileHome from '../components/mobile/Home.jsx'
+import MobileHomeMobile from '../components/mobile/HomeMobile.jsx'
 
 
 
@@ -15,7 +15,7 @@ function Home() {
   return (
     <div>
     {isDesktop && <DesktopHome/>}
-    {isMobile && <MobileHome/>}
+    {isMobile && <MobileHomeMobile/>}
   
     </div>
   );
