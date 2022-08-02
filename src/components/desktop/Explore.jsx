@@ -38,6 +38,9 @@ return (
 
             </div>
         </div>
+        <div className="item-container">
+            
+        </div>
         <div className="explore-value">
             <div className="value-text">
                 <h1>Lead with Empathy</h1>

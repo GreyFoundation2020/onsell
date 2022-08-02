@@ -1,5 +1,6 @@
 {
-  "name": "advertiseandsell",
+  "homepage": "https://github.com/GreyFoundation2020/onsell.git",
+  "name": "onsell",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,6 +29,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predepoly": "npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -53,7 +56,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
-    "eslint": "^5.12.0"
+    "eslint": "^5.12.0",
+    "gh-pages": "^4.0.0"
   },
   "repository": {
     "type": "git",

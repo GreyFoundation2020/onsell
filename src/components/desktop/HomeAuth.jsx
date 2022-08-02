@@ -287,7 +287,12 @@ return (
     null}
   </>
   }
-
+ <div className="footer-bottom">
+      <p>© NOsell -- All right reserved</p>
+        <div className="footer-social">
+          Facebook Twitter Instagram IinkedIn.
+        </div>
+     </div>
 </>
 )
 }
