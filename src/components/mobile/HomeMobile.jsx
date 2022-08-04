@@ -147,7 +147,7 @@ else{
   return (
 <>
 {/* SignUp Component */}
-  <div  className={hideModal?'signup-container-hidden':'signup-container'} >
+  <div  className={hideModal?'signup-container-hidden':'signup-containerMobile'} >
     <div className='close-btn'>
       <svg onClick={()=>setHideModal(true)}  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 close-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -175,7 +175,7 @@ else{
 
 
     {/* SignIn Component */}
-  <div  className={hideModal2?'signin-container-hidden':'signin-container'} >
+  <div  className={hideModal2?'signin-container-hidden':'signin-containerMobile'} >
     <div className='close-btn'>
       <svg onClick={()=>setHideModal2(true)}  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 close-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />

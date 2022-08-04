@@ -71,7 +71,7 @@
 }
 
 
-.signup-container{
+.signup-containerMobile{
   position: fixed;
     background: whitesmoke;
     width: 85%;
@@ -92,7 +92,7 @@
 
 
 
-.signin-container{
+.signin-containerMobile{
     position: fixed;
     background: whitesmoke;
     width: 80%;
@@ -125,14 +125,14 @@
     justify-content: space-between;
     
 }
-.name-input, .signin-container input{
+.name-input, .signin-containerMobile input{
     padding: 12px;
     border-radius: 20px;
     color: orange;
     text-align: left;
 }
 
-.signup-container input{
+.signup-containerMobile input{
     padding: 12px;
     border-radius: 20px;
     color: orange;
