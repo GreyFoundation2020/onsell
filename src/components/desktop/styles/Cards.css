@@ -1,4 +1,4 @@
-.cards-text h1{
+.cards-text2 h1{
     color: gray;
     text-align: center;
     font-weight: 700;
@@ -9,7 +9,7 @@
     background: #fbfbfbd6;;
 }
 
-.cards-container{
+.cards-container2{
     display:flex;
     width:100%;
    background-color: #fbfbfbd6;;
@@ -21,7 +21,7 @@
    padding-bottom: 40px;
 
 }
-.cards-container span{
+.cards-container2 span{
     background: whitesmoke;
     box-sizing: border-box;
     border-radius: 12px;

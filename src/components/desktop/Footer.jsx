@@ -9,7 +9,7 @@ export default function Footer() {
   
     <div className='footer-container'>
      <div className='footer-h1'> <h1></h1></div>
-     <div className="footer">
+     <div className="footer1">
       <hr/>
       <div className="footer-left">
         <h1>ON<span>sell</span></h1>

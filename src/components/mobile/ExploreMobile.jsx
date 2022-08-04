@@ -1,16 +1,18 @@
 import React from 'react';
-import './styles/Explore.css'
+import './styles/ExploreMobile.css'
 import explorebackground from '../../images/explorebackground.png'
-import Header from './Header';
 import leed from '../../images/leedsproperty.png'
-import Footer from './Footer';
 import houserent from '../../images/houserent.jpg'
+import FooterMobile from '../mobile/FooterMobile'
+import HeaderMobile from '../mobile/HeaderMobile'
 
 
-const Explore = () => {
+
+
+const ExploreMobile = () => {
 return (
 <>
-    <Header page='explore' />
+    <HeaderMobile page='explore' />
     <>
 
         <div className='explore-container'>
@@ -30,13 +32,8 @@ return (
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div className="container-left">
                 <button className="btn-btn"><i class="fa-solid fa-angle-right"></i>Watch More</button>
-                <div className="btn-container">
-                    <a href="">Learn more</a>
-                </div>
-
-            </div>
+            
         </div>
         <div className="item-container">
             <div className="item-image">
@@ -65,11 +62,11 @@ return (
                     to share them, regardless of background, identity, or seniority.</q>
             </div>
         </div>
-        <Footer />
+        <FooterMobile />
     </>
 
 </>
 );
 }
 
-export default Explore;
+export default ExploreMobile;

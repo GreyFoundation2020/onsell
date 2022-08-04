@@ -1,5 +1,5 @@
-.footer1{
-    display: flex;
+.footer{
+    display: inline-block;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 .footer-left {
   display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 100%;
     line-height: 2;
     padding: 25px;
   
@@ -28,13 +28,13 @@
 .footer-center {
     display: flex;
     flex-direction: row;
-    width: 40%;
-    line-height: 3; 
+    width: 100%;
+    line-height: 2; 
 }
 .footer-right {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     line-height: 2;
     text-align: justify;
     justify-content: flex-start;
@@ -48,7 +48,7 @@
     width: 100%;
 }
 .footer-search input{
-   padding: 10px 80px 10px 4px;
+   padding: 0px 0px 10px 4px;
     background: whitesmoke;
   
     border: none;

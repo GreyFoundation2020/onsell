@@ -1,8 +1,8 @@
 import React from 'react'
-import './styles/Footer.css'
+import './styles/FooterMobile.css'
 
 
-export default function Footer() {
+export default function FooterMobile() {
   return (
     <div className='footer-container'>
      <div className='footer-h1'> <h1></h1></div>

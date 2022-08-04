@@ -1,4 +1,4 @@
-.header-container{
+.header-container1{
     display: flex;
     flex-direction: row;
     height: 10vh;
@@ -11,7 +11,7 @@
     top: 0;
     box-shadow: 0 4px 2px -2px whitesmoke;
 }
-.logo-container{
+.logo-container1{
     width: 20%;
      height: 10vh;
      margin-left: 10px;
@@ -19,15 +19,15 @@
      align-items: center;
    
 } 
-.logo-container h1{
+.logo-container1 h1{
     color: orange;
     font-weight: 700;
 } 
-.logo-container span{
+.logo-container1 span{
     color: teal;
     font-weight: 900;
 } 
-.logo-container img{ 
+.logo-container1 img{ 
     height: 50px;  
 }
 .header-input input{
@@ -39,7 +39,7 @@
     
 }
 
-.list-container{
+.list-container1{
     width: 30%;
     display: flex;
     flex-direction: row;
@@ -62,7 +62,7 @@
 
   
 }
-.nav-link a{
+.nav-link1{
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
@@ -71,12 +71,12 @@
 
 }
 
-.nav-link:hover a{
+.nav-link1:hover{
     color: orange;
 
 }
 
-.nav-link-selected{
+.nav-link-selected1{
     text-decoration: none;
     font-size: 17px;
     font-weight: 600;

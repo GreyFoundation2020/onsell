@@ -1,7 +1,7 @@
 import React from 'react'
-import './styles/Cards.css'
+import './styles/CardsMobile.css'
 
-export default function Cards() {
+export default function CardsMobile() {
   return (
     <>
     <div className="cards-text"><h1>How To Get Started!.</h1></div>

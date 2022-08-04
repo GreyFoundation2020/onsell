@@ -1,4 +1,4 @@
-/* .header-container{
+.header-container2{
     height: 6vh;
     background: white;
     display: flex;
@@ -36,7 +36,7 @@
     
 }
 
-.list-container{
+.list-container2{
    width: 45%;
     display: flex;
     flex-direction: row;
@@ -55,7 +55,7 @@
 
   
 }
-.nav-link a{
+.nav-link2{
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
@@ -63,7 +63,7 @@
 
 }
 
-.nav-link:hover a{
+.nav-link2:hover{
     color: orange;
 
 }
@@ -73,4 +73,4 @@
     font-size: 17px;
     font-weight: 600;
     color: orange;
-} */
+}
