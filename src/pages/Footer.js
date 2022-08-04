@@ -1,8 +1,8 @@
 import React from "react";
 import { useMediaQuery } from 'react-responsive'
 import Footer from "../components/desktop/Footer";
-import DesktopHome from '../components/desktop/Footer'
-import MobileHome from '../components/mobile/Footer'
+import DesktopFooter from '../components/desktop/Footer'
+import MobileFooterMobile from '../components/mobile/FooterMobile.jsx'
 
 
 
@@ -16,7 +16,7 @@ function Footer() {
   return (
     <div>
     {isDesktop && <DesktopFooter/>}
-    {isMobile && <MobileFooter/>}
+    {isMobile && <MobileFooterMobile/>}
   
     </div>
   );

@@ -4,10 +4,10 @@ import './styles/Cards.css'
 export default function Cards() {
 return (
 <>
-  <div className="cards-text">
+  <div className="cards-text2">
     <h1>How To Get Started!.</h1>
   </div>
-  <div className='cards-container'>
+  <div className='cards-container2'>
     <div className='card-content'>
       <h1 className='card-h1'> Step 1</h1>
       <span>SignUp Option 🌫</span>

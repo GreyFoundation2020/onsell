@@ -1,21 +1,23 @@
 import React from 'react';
-import './styles/Explore.css'
+import './styles/ExploreMobile.css'
 import explorebackground from '../../images/explorebackground.png'
-import Header from './Header';
 import leed from '../../images/leedsproperty.png'
-import Footer from './Footer';
 import houserent from '../../images/houserent.jpg'
+import FooterMobile from '../mobile/FooterMobile'
+import HeaderMobile from '../mobile/HeaderMobile'
 
 
-const Explore = () => {
+
+
+const ExploreMobile = () => {
 return (
 <>
-    <Header page='explore' />
+    <HeaderMobile page='explore' />
     <>
 
-        <div className='explore-container1'>
-            <div className='explore-content1'>
-                <div className='explore-text1'>
+        <div className='explore-container'>
+            <div className='explore-content'>
+                <div className='explore-text'>
                     <h1 className='explore-h1'>Explore <br /> more about ONsell</h1>
                     <span className='explore-span'> At ONsell , we offer you the ground to Buy and Sell Properties that
                         is more of quality which suite your taste around Nigeria.</span>
@@ -25,18 +27,13 @@ return (
                 <div className='explore-immage'><img src='' alt="" /></div>
             </div>
         </div>
-        <div className="plan-section2">
+        <div className="plan-section1">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/gXW6BYWtUfw"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div className="container-left2">
-                <button className="btn-btn2"><i class="fa-solid fa-angle-right"></i>Watch More</button>
-                <div className="btn-container2">
-                    <a href="">Learn more</a>
-                </div>
-
-            </div>
+                <button className="btn-btn"><i class="fa-solid fa-angle-right"></i>Watch More</button>
+            
         </div>
         <div className="item-container">
             <div className="item-image">
@@ -47,7 +44,7 @@ return (
             </div>
 
         </div>
-        <div className="explore-value2">
+        <div className="explore-value">
             <div className="value-text">
                 <h1>Lead with Empathy</h1>
                 <q>We are leaders in a new and complex industry that is profoundly changing how brands engage their most
@@ -65,11 +62,11 @@ return (
                     to share them, regardless of background, identity, or seniority.</q>
             </div>
         </div>
-        <Footer />
+        <FooterMobile />
     </>
 
 </>
 );
 }
 
-export default Explore;
+export default ExploreMobile;

@@ -1,4 +1,4 @@
-/* .cards-text h1{
+.cards-text h1{
     color: gray;
     text-align: center;
     font-weight: 700;
@@ -8,17 +8,17 @@
     padding-top: 5%;
     background: #fbfbfbd6;;
 }
+.cards-text{
+    margin-top: -310px;
+    margin-bottom: 0px;
+}
 
 .cards-container{
-    display:flex;
-    width:100%;
-   background-color: #fbfbfbd6;;
-   justify-content: space-between;
-   gap: 60px;
-   box-sizing: border-box;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-bottom: 40px;
+     display: inline-block;
+    width: 100%;
+    background-color: #fbfbfbd6;
+    box-sizing: border-box;
+    padding: 30px;
 
 }
 .cards-container span{
@@ -31,18 +31,20 @@
     padding: 6px;
 }
 .card-content{
-    width:100%;
-    padding: 20px;
+   width: 100%;
+    padding: 10px;
     border-radius: 20px;
-    background:#df9714;
+    background: #df9714;
     color: white;
     text-align: justify;
     line-height: 2;
-    font-variant-position: super;
+    margin-bottom: 20px;
+    font-feature-settings: super;
 }
 .card-content2{
     width:100%;
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
     border-radius: 20px;
     background: teal;
     color: white;
@@ -52,7 +54,7 @@
 }
 .card-content3{
     width:100%;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     background: #df9714;
     color: white;
@@ -61,7 +63,7 @@
     font-variant-position: super;
 }
 .cards-button{
-    width: 100px;
+    width: 120px;
     height: 50px;
     border-radius: 20px;
     padding: 10px;
@@ -71,4 +73,4 @@
     text-align: center;
     align-items: flex-end;
     cursor: none;
-} */
+}

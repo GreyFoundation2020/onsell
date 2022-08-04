@@ -1,8 +1,7 @@
 import React from "react";
 import { useMediaQuery } from 'react-responsive'
-import Cards from "../components/desktop/Cards";
-import DesktopHome from '../components/desktop/Cards'
-import MobileHome from '../components/mobile/Cards'
+import DesktopCards from '../components/desktop/Cards.jsx'
+import MobileCardsMobile from '../components/mobile/CardsMobile.jsx'
 
 
 
@@ -16,7 +15,7 @@ function Card() {
   return (
     <div>
     {isDesktop && <DesktopCards/>}
-    {isMobile && <MobileCards/>}
+    {isMobile && <MobileCardsMobile/>}
   
     </div>
   );

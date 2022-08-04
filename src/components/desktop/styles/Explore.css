@@ -1,4 +1,4 @@
-.explore-container{
+.explore-container1{
     background-image: url( "../../../images/explorebackground.png");
     opacity: 2.5;
      background-position: left;
@@ -14,7 +14,7 @@
 div{
     overflow-x: clip;
 }
-.explore-content{
+.explore-content1{
     margin-top: 30px;
     text-align: left;
     width: 50%;
@@ -44,7 +44,7 @@ div{
     flex-direction: column;
     min-height: 100vh;
 }
- .container-left {
+ .container-left2 {
         width: 550px;
         background-color: teal;
         padding-bottom: 20px;
@@ -54,7 +54,7 @@ div{
         bottom: 100px;
        
     }
-     .btn-btn {
+     .btn-btn2 {
         width: 550px;
         font-size: 18px;
         text-align: center;
@@ -65,7 +65,7 @@ div{
         color: white;
         box-shadow: 0 .375rem .875rem 0 rgba(0, 0, 0, .13), 0 .0625rem .25rem 0 rgba(0, 0, 0, .11);
     }
-     .btn-container {
+     .btn-container2 {
         font-size: 20px;
         background: whitesmoke;
         margin: 15px 40px;
@@ -74,7 +74,7 @@ div{
         border-radius: 5px;
     }
     
-    .btn-container a {
+    .btn-container2 a {
         color: orange;
         text-decoration: none;
         font-size: 20px;
@@ -82,18 +82,18 @@ div{
         height: 40px;
         padding-top: 10px;
     }
-    .plan-section1 iframe {
+    .plan-section2 iframe {
         width: 550px;
         height: 390px;
         border-radius:  15px 15px 1px 1px;
     }
-    .plan-section1{
+    .plan-section2{
         position: absolute;
         top: 65vh;
         left: 55%;
         
     }
-    .explore-value{
+    .explore-value2{
       width: 100%;
     margin-top: 30px;
     display: flex;

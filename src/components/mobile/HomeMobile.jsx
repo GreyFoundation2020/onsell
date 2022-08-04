@@ -1,5 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react'
-import Header from '../mobile/HeaderMobile'
+import HeaderMobile from '../mobile/HeaderMobile'
 import './styles/HomeMobile.css'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc, Timestamp } from "firebase/firestore"; 
@@ -7,6 +7,8 @@ import { useNavigate } from "react-router-dom";
 import {db} from '../../App.js'
 import background from '../../images/background.png' 
 import explorebackground from '../../images/explorebackground.png'
+import CardsMobile from '../mobile/CardsMobile';
+import FooterMobile from '../mobile/FooterMobile'
 var validator = require("email-validator"); 
 
 
@@ -145,7 +147,7 @@ else{
   return (
 <>
 {/* SignUp Component */}
-  <div  className={hideModal?'signup-container-hidden':'signup-container'} >
+  <div  className={hideModal?'signup-container-hidden':'signup-containerMobile'} >
     <div className='close-btn'>
       <svg onClick={()=>setHideModal(true)}  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 close-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -173,7 +175,7 @@ else{
 
 
     {/* SignIn Component */}
-  <div  className={hideModal2?'signin-container-hidden':'signin-container'} >
+  <div  className={hideModal2?'signin-container-hidden':'signin-containerMobile'} >
     <div className='close-btn'>
       <svg onClick={()=>setHideModal2(true)}  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 close-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -200,18 +202,19 @@ else{
 
 
 
-    <div className='home-container'>
-     <Header page="home"/>
-
-     <div className='home-content'>
+    <div className='home-container1'>
+     <HeaderMobile page="home"/>
+       <div className="design"><h1>ON<span>sell</span></h1></div>
+     <div className='home-content1'>
        <span className='header-text'>Welcome !</span>
        <span className='sub-header-text'>Want to Buy or Sell a Property ?</span>
        <span className='sub-text'>We've got you covered.</span>
         <button onClick={()=>setHideModal(false)} className='home-button' > <span className='home-button-text' >Click To Get Started</span> </button>
-    
      </div>
-  
     </div>
+        <CardsMobile/>
+      <FooterMobile/>
+
   </>
  
   )
