@@ -1,0 +1,235 @@
+.post-creator{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.create-ad-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.create-ad-btn span{
+margin-left: 5px;
+}
+
+.create-ad-btn:hover{
+background-color: orange;
+}
+
+.hr-line{
+   border-top: 3px solid orange;
+   margin-left: 20px;
+   margin-right: 20px;
+
+}
+
+.modal-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modal-logo-container img{
+    height: 30px;
+    margin-right: 2px;
+}
+
+.modal-double-input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-double-input-container .input-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal-double-input-container .input-container span{
+font-size: 14px;
+text-align: left;
+margin-bottom: 3px;
+font-weight: 500;
+margin-left: 3px;
+}
+
+.modal-double-input-container .input-container input{
+height: 50px;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid silver;
+outline: none;
+}
+
+.modal-double-input-container .input-container input:focus{
+    border: 1.5px solid orange;
+
+}
+
+.input-file-container{
+    margin-top: 15px;
+    background: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    }
+
+    .upload-button-file-desciption{
+        font-size: 10px;
+        margin-bottom: 10px;
+    
+    }
+    
+
+    .upload-label-text{
+        color: #00000080;
+       letter-spacing: 0.7px;
+        cursor: pointer;
+       border-radius: 15px;
+       box-shadow: 2px 2px 1px 1px whitesmoke;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center
+    }
+
+    input[type="file"]{
+        display: none;
+      }
+
+      .upload-icon{
+        height: 23px;
+    }
+
+    .errormesage{
+        text-align: center;
+        font-weight: 500;
+        color: red;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .post-published-container{
+        background-color: #009943;;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+.posts-container{
+    padding: 20px;
+}
+    .posts-grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+        grid-auto-rows: minmax(50px, auto);
+       }
+
+       .advert{
+      
+        height: 300px;
+        background-color: whitesmoke;
+       }
+
+       .advertImage{
+        height: 220px;
+        cursor: pointer;
+        align-self: center;
+       }
+
+       .name-amount{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+
+
+       }
+
+       .name-amount .name{
+        text-transform: capitalize;
+        font-size: 13px;
+        font-weight: 500;
+        width: 50%;
+       }
+
+       .name-amount .amount{
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+       }
+
+       .name-date{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+       }
+
+       .name-date .name{
+        text-transform: capitalize;
+        font-size: 12px;
+        font-weight: 500;
+        width: 50%;
+        cursor: pointer;
+       }
+
+       .post-icon-user{
+        margin-right: 4px;
+       }
+       
+       .name-date .date{
+        font-size: 12px;
+        font-weight: 550;
+       }
+
+       .like-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+       }
+
+       .like-container span{
+        margin-right: 3px;
+       }
+
+       .like-icon{
+        margin-left: 4px;
+        cursor: pointer;
+       }
+    .footer-bottom{
+    padding: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #df9714;
+    color: whitesmoke;
+}

@@ -204,11 +204,11 @@ else{
 
     <div className='home-container1'>
      <HeaderMobile page="home"/>
-       <div className="design"><h1>ON<span>sell</span></h1></div>
+       <div className="design"></div>
      <div className='home-content1'>
-       <span className='header-text'>Welcome !</span>
-       <span className='sub-header-text'>Want to Buy or Sell a Property ?</span>
-       <span className='sub-text'>We've got you covered.</span>
+       <span className='header-text1'>Welcome To ONsell!</span>
+       <span className='sub-header-text1'>Want to Buy or Sell a Property ?</span>
+       <span className='sub-text1'>We've got you covered.</span>
         <button onClick={()=>setHideModal(false)} className='home-button' > <span className='home-button-text' >Click To Get Started</span> </button>
      </div>
     </div>

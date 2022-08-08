@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from 'react-responsive'
 import DesktopHomeAuth from '../components/desktop/HomeAuth'
-import MobileHomeAuth from '../components/mobile/HomeAuth'
+import MobileHomeAuthMobile from '../components/mobile/HomeAuthMobile'
 
 
 
@@ -15,7 +15,7 @@ function HomeAuth() {
   return (
     <div>
     {isDesktop && <DesktopHomeAuth/>}
-    {isMobile && <MobileHomeAuth/>}
+    {isMobile && <MobileHomeAuthMobile/>}
   
     </div>
   );

@@ -5,6 +5,7 @@ import Header from './Header';
 import leed from '../../images/leedsproperty.png'
 import Footer from './Footer';
 import houserent from '../../images/houserent.jpg'
+import undraw from '../../images/undraw.png'
 
 
 const Explore = () => {
