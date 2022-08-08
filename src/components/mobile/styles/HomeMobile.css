@@ -11,13 +11,11 @@
     padding-bottom: 0px;
 }
 .design{
-    padding-right: 70px;
     margin-left: 20px;
-    padding-top: 30px;
     background: orange;
     width: 95%;
+    height: 13%;
     border-radius: 11% 28% 35% 66% / 0% 0% 90% 99%;
-    text-align: end;
     color: whitesmoke;
     position: unset;
 }
@@ -32,18 +30,18 @@
     justify-content: center;
     display: none;
 }
-.header-text{
-     font-size:50px;
+.header-text1{
+     font-size:40px;
      font-weight: 700;
      margin-top: 3%;
 }
-.sub-header-text{
-    font-size: 30px;
+.sub-header-text1{
+    font-size: 24px;
      font-weight: 500;
      
 }
-.sub-text{
-    font-size: 20px;
+.sub-text1{
+    font-size: 18px;
      font-weight: 500;
     
 }
@@ -65,9 +63,10 @@
 }
 
 .home-content1{
-   padding: 0px 0px 0px 30px;
+   padding: 0px 2px 0px 30px;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 
