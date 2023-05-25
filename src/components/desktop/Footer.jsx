@@ -5,10 +5,7 @@ import './styles/Footer.css'
 export default function Footer() {
   return (
     <>
-    
-  
-    <div className='footer-container'>
-     <div className='footer-h1'> <h1></h1></div>
+  <>
      <div className="footer1">
       <hr/>
       <div className="footer-left">
@@ -28,11 +25,11 @@ export default function Footer() {
             on any of the number or visit our whatsApp.
           </p>
           <p>
-            🔗 Calabar, Cross River State. Nigeria.
+            <span role='img' aria-describedby='image'>🔗</span>Calabar, Cross River State. Nigeria.
           </p>
-          <p>📱 Call us +2341234566788 +2341234566788  +2341234566788</p>
+          <p><span role='img' aria-describedby='image'>📱</span> Call us +2341234566788 +2341234566788  +2341234566788</p>
           <p>
-            💌
+           <span role='img' aria-describedby='image'>💌</span>
             clientservice@ONsell.gmail.com
           </p>
           <h4>Contact us</h4>
@@ -56,7 +53,7 @@ export default function Footer() {
         </div>
      </div>
  
-     </div>
+     </>
        </>
   )
 }

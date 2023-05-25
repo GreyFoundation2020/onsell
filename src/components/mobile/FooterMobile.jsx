@@ -5,7 +5,7 @@ import './styles/FooterMobile.css'
 export default function FooterMobile() {
   return (
     <div className='footer-container'>
-     <div className='footer-h1'> <h1></h1></div>
+     <div className='footer-h1'> <h1>hell</h1></div>
      <div className="footer">
       <hr/>
       <div className="footer-left">

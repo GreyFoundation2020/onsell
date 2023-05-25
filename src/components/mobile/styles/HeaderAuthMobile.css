@@ -1,7 +1,7 @@
-.header-container{
+.header-container5{
     display: flex;
     flex-direction: row;
-    height: 10vh;
+    height: 8vh;
     background: white;
     display: flex;
     align-items: center;
@@ -11,61 +11,51 @@
     top: 0;
     box-shadow: 0 4px 2px -2px whitesmoke;
 }
-.logo-container{
-    width: 60%;
-     height: 10vh;
+.logo-container5{
+    width: 20%;
+     height: 8vh;
      margin-left: 10px;
      display: flex;
      align-items: center;
    
 } 
-.logo-container img{ 
+.logo-container5 img{ 
     height: 50px;  
 }
 
-.list-container{
+
+.list-container-auth5{
     width: 30%;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-between;
-    margin-right: 2%;
-  
-
-  
-}
-.list-container-auth{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 2%;
 
   
 }
-.nav-link{
+.nav-link5{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 500;
     color: teal;
 
 }
 
-.nav-link:hover{
+.nav-link5:hover{
     color: orange;
 
 }
 
-.nav-link-selected{
+.nav-link-selected5{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 600;
     color: orange;
 }
 
-.user-info{
-width: 10%;
+.user-info5{
+width: 25%;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -77,18 +67,18 @@ padding-top: 2px;
 padding-bottom: 2px;
 
 }
-.profile-container{
-    height: 25px;
-    width: 25px;
+.profile-container5{
+    height: 22px;
+    width: 22px;
     border-radius: 30px;
 }
 .profileImage{
     max-width: 100%;
     max-height: 100%;
 }
-.user-name{
+.user-name5{
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 550;
     letter-spacing: 0.3px;
     color: gray;
@@ -97,5 +87,6 @@ padding-bottom: 2px;
    padding: 6px 14px 6px 14px;
     border: 2px solid teal;
     border-radius: 20px;
-    font-size: 15px;   
+    font-size: 12px; 
+    width: 90%;
 }

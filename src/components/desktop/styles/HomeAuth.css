@@ -232,4 +232,6 @@ outline: none;
     justify-content: space-between;
     background: #df9714;
     color: whitesmoke;
+        padding-top: 50px;
+            height: 14vh;
 }
