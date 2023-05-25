@@ -169,7 +169,6 @@ firstName = docSnap.data().firstName
 lastName = docSnap.data().lastName
 }
 catch{
-
 }
 let user_name = firstName + ' '+lastName
 setUserName(user_name)
