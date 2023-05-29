@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from 'react'
-import { doc, onSnapshot } from "firebase/firestore";
-import {useDispatch, useSelector} from 'react-redux'
-import {login, logout} from '../../features/authenticationSlice'
+import { doc, getDoc} from "firebase/firestore";
+import {useDispatch} from 'react-redux'
+import {logout} from '../../features/authenticationSlice'
 import {db} from '../../App.js'
-import moment from "moment";
 import './styles/HeaderAuth.css'
 import { Link } from 'react-router-dom'
 import LogoutIcon from '@mui/icons-material/Logout';
@@ -26,20 +25,21 @@ const logOut=()=>{
 const getUserDetails=async()=>{
   let firstName = ''
   let lastName =  ''
-  let userId = await localStorage.getItem('userId')
-  const unsub = onSnapshot(doc(db, "users", userId), (doc) => {
-if(doc.data()){
-  firstName = doc.data().firstName!==undefined && doc.data().firstName
+  let userId = localStorage.getItem('userId')
+ const docRef =await getDoc(db, "users", userId) 
+ console.log(userId)
+if(docRef.exists()){
+   firstName = doc.data().firstName!==undefined && doc.data().firstName
   lastName =  doc.data().lastName!==undefined &&  doc.data().lastName
 let user_name = firstName + ' '+lastName
-setUserName(user_name)
+ setUserName(user_name)
+console.log('name')
 }
 
-unsub()
   
-});
+};
 
-}
+
 
   return (
     <div className='header-container'>
@@ -57,7 +57,7 @@ unsub()
         <div className='user-info-container'>
         <div  className='user-info'>
           <div className='profile-container'>
-              <img className='profileImage' src={profileImage} alt="image" />        
+              <img className='profileImage' src={profileImage} alt="im" />        
           </div>
             <span hidden={userName===''} className='user-name'>{userName.length > 18 ?userName.substring(0,18)+'...':userName}</span>
             <span onClick={()=>logOut()}><LogoutIcon className='logout-icon'/></span>      

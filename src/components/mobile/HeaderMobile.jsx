@@ -7,7 +7,7 @@ import './styles/HeaderMobile.css'
 
 
 export default function HeaderMobile(props) {
-  const [navbar, setNavbar]= useState(true)
+  
   return (
     <div className='header-container2'>
       <div className='logo-container'>

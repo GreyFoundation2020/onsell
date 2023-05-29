@@ -1,4 +1,4 @@
-import React, {useState, useRef, useEffect} from 'react'
+import React, {useState, useRef} from 'react'
 import Header from '../desktop/Header'
 import Cards from './Cards';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
@@ -6,9 +6,6 @@ import { doc, setDoc, Timestamp } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import {db} from '../../App.js'
 import './styles/Home.css'
-import explorebackground from '../../images/explorebackground.png'
-import Explore from './Explore'
-import HomeAuth from './HomeAuth';
 import Footer from './Footer'
 import {useDispatch, useSelector} from 'react-redux'
 import {login, logout} from '../../features/authenticationSlice'
@@ -40,8 +37,6 @@ const [passwordSignIn, setPasswordSignIn] = useState('')
 
 let navigate = useNavigate();
 
-const firstNameRef = useRef()
-const lasttNameRef = useRef()
 const emailRef = useRef()
 const passwordRef = useRef()
 

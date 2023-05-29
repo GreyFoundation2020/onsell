@@ -1,13 +1,11 @@
 import React,{useEffect} from "react";
-import { getAuth } from "firebase/auth";
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-import { getAnalytics } from "firebase/analytics";
 import {login} from './features/authenticationSlice'
-import { Routes, Route, Link, Navigate } from "react-router-dom";
+import { Routes, Route,Navigate } from "react-router-dom";
 import {useSelector, useDispatch} from 'react-redux'
 import Explore from "./pages/Explore";
-import Home from './pages/Home'
+import Home from './pages/Home';
 import HomeAuth from "./pages/HomeAuth";
 
 
@@ -37,7 +35,7 @@ useEffect(()=>{
 },[])
 
 const checkLoginState=async()=>{
-  const userId = await localStorage.getItem('userId')
+  const userId = localStorage.getItem('userId')
   if(userId!== null){
    dispatch(login({signIn: true}))
   }

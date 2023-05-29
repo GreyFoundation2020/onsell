@@ -11,7 +11,7 @@ import { ThreeDots } from 'react-loader-spinner'
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import 'bootstrap/dist/css/bootstrap.css';
 import Resizer from "react-image-file-resizer";
-import { Button, Modal, InputGroup, FormGroup, Form, } from 'reactstrap';
+import {Modal, Form, } from 'reactstrap';
 import './styles/HomeAuth.css'
 
 
@@ -169,7 +169,6 @@ firstName = docSnap.data().firstName
 lastName = docSnap.data().lastName
 }
 catch{
-
 }
 let user_name = firstName + ' '+lastName
 setUserName(user_name)
@@ -218,7 +217,7 @@ return (
         <div className='input-file-container'>
           <input onChange={handleImageFile} type="file" id="advert-file" accept='image/*' />
           <label className='upload-label-text' htmlFor='advert-file'>
-            <img hidden={advertPhoto==='' } style={{height: 70}} src={advertPhoto} className="img-thumbnail" />
+            <img hidden={advertPhoto==='' } style={{height: 70}} src={advertPhoto} className="img-thumbnail" alt='imgae'/>
             <UploadFileIcon className="upload-icon" />
             <span className='upload-button-text'>{advertPhoto===''?'Click to Upload Photo' : 'Click to Change Photo'}
             </span>
@@ -261,7 +260,7 @@ return (
           {adverts.map((advert, i)=>{
           return(
           <div className='advert'>
-            <img className='advertImage' src={advert.itemPhoto} />
+            <img className='advertImage' src={advert.itemPhoto} alt='imgae' />
             <div className='name-amount'>
               <span className='name'>{advert.itemName}</span>
               <span className='amount'>&#8358; {numberWithCommas(advert.itemAmount)}</span>

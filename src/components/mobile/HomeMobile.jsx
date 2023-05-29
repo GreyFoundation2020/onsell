@@ -1,12 +1,10 @@
-import React, {useState, useRef, useEffect} from 'react'
+import React, {useState, useRef} from 'react'
 import HeaderMobile from '../mobile/HeaderMobile'
 import './styles/HomeMobile.css'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc, Timestamp } from "firebase/firestore"; 
 import { useNavigate } from "react-router-dom";
 import {db} from '../../App.js'
-import background from '../../images/background.png' 
-import explorebackground from '../../images/explorebackground.png'
 import CardsMobile from '../mobile/CardsMobile';
 import FooterMobile from '../mobile/FooterMobile'
 var validator = require("email-validator"); 
@@ -27,8 +25,6 @@ const [doingReg, setDoingReg] = useState(false)
 
 let navigate = useNavigate();
 
-const firstNameRef = useRef()
-const lasttNameRef = useRef()
 const emailRef = useRef()
 const passwordRef = useRef()
 
@@ -107,7 +103,6 @@ navigate("/home", { replace: true });
     
   })
   .catch((error) => {
-    const errorCode = error.code;
     const errorMessage = error.message;
   setDoingReg(false)
   alert(errorMessage)

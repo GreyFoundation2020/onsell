@@ -1,11 +1,8 @@
 import React from 'react';
 import './styles/Explore.css'
-import explorebackground from '../../images/explorebackground.png'
 import Header from './Header';
-import leed from '../../images/leedsproperty.png'
 import Footer from './Footer';
-import houserent from '../../images/houserent.jpg'
-import undraw from '../../images/undraw.png'
+
 
 
 const Explore = () => {
@@ -34,7 +31,7 @@ return (
             <div className="container-left2">
                 <button className="btn-btn2"><i class="fa-solid fa-angle-right"></i>Watch More</button>
                 <div className="btn-container2">
-                    <a href="">Learn more</a>
+                    <a href='#..'>Learn more</a>
                 </div>
 
             </div>
@@ -43,8 +40,6 @@ return (
             <div className="item-image">
             </div>
             <div className="item-discription">
-                <h1></h1>
-
             </div>
 
         </div>

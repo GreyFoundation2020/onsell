@@ -1,8 +1,5 @@
 import React from 'react';
 import './styles/ExploreMobile.css'
-import explorebackground from '../../images/explorebackground.png'
-import leed from '../../images/leedsproperty.png'
-import houserent from '../../images/houserent.jpg'
 import FooterMobile from '../mobile/FooterMobile'
 import HeaderMobile from '../mobile/HeaderMobile'
 
@@ -39,7 +36,6 @@ return (
             <div className="item-image">
             </div>
             <div className="item-discription">
-                <h1></h1>
 
             </div>
 
